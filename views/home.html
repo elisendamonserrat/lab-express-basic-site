@@ -5,17 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="stylesheet" href="/public/styles.css">
 </head>
 <body>
     <nav>
-        <ul>
-            <li><a href="/about-us"> About us</a></li>
-            <li><a href="/our-work"> Works</a></li>
-            <li><a href="/gallery"> Photo Gallery</a></li>
+        <ul class="navbar">
+            <li class="navbar__li"><a href="/about-us"> About the band</a></li>
+            <li class="navbar__li"><a href="/our-work"> Discography</a></li>
+            <li class="navbar__li"><a href="/gallery"> Photo gallery</a></li>
         </ul>
     </nav>
+    <header class="hero">
+        <h1>Welcome to Coldplay's Fan Page!</h1>
+    </header>
     <main>
-        <h1>Welcome to our homepage!</h1>
-    </main>    
+        <div class="intro">
+            <h2>Coldplay in a nutshell</h2>
+            <p>Coldplay have sold more than 100 million records worldwide, making them one of 
+            the world's best-selling music artists. They have won numerous awards throughout 
+            their career, including nine Brit Awards, seven MTV Video Music Awards, eight MTV 
+            Europe Music Awards and seven Grammy Awards from 35 nominations.</p>
+        </div>
+
+        <div class="top-links">
+            <h2>Discover more about the British band</h2>
+            <div class="cols">
+                <a href="/about-us" class="col">
+                    <div>
+                        <h3>All about the band</h3>
+                        <p>Discover all from the formation and first years of the band till nowadays. </p>
+                    </div>
+                </a>
+                <a href="/our-work" class="col">
+                    <div>
+                        <h3>Discography</h3>
+                        <p>Find out Coldplay's discography and their most popular songs.</p>
+                    </div>
+                </a>
+                <a href="/gallery" class="col">
+                    <div>
+                        <h3>Gallery</h3>
+                        <p>Check out pictures of their latest World Tour!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>  
+    <footer>
+        <p>© Information taken from Wikipedia, images from Unsplash.</p>
+    </footer>  
 </body>
 </html>
