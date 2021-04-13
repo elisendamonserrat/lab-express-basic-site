@@ -108,7 +108,7 @@ a {
 
 .cols {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 2rem;;
     padding: 2rem 2rem ;
 }
@@ -138,11 +138,18 @@ a {
     width: 50%;
     padding: 1.5rem;
     margin: 6rem auto;
-    background-image: url("/public/img/members-band.jpg");
+    background-image: url("/img/members-band.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
 
+/*Layout Works */
+
+
+.col--img {
+    width: 100%;
+    margin: auto 0;
+}
 
 
 
